@@ -18,7 +18,7 @@ filename = os.path.join(save_folder, f"t{next_number}.jpg")
 
 # Try capturing the image
 try:
-    print(f"Capturing image {next_number} from {url}...")
+    print(f"Capturing image {next_number}...")
     response = requests.get(url, timeout=5)
 
     if response.status_code == 200:
